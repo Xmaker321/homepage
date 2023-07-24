@@ -7,11 +7,42 @@ h1 {
 }
 
 h2 {
-  color:
-  background:rgb(255, 0, 0)
-
+  color:rgb(100, 0, 50)
+  
 }
 
-section {
-    background: #cdc1f8
+
+.czerwony {
+  color: red;
+}
+
+#szkolenie{
+  background:yellow;
+}
+
+
+
+a {
+  color: inherit;
+}
+
+section a {
+  color:orange
+}
+
+.my-article {
+  color: hotpink;
+}
+
+.my-article p {
+  background: #1460aa;
+  color: #ffffff;
+}
+
+#name {
+  color:red;
+}
+
+.about {
+  color: #a30041;
 }

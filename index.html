@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTF:co ten frontend</title>
+ <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
@@ -11,27 +12,32 @@
     <a href="index.html">Strona główna</a>
     <a href="nauka-html.html">Nauka HTML</a>
 </nav>
-</header>
+    </header>
 <main>
-</header id="top"
-     <h1>Maciek Korsan - Strona Domowa <h1>  
-    <section> 
-    <h2>Kim jestem?</h2>
-    <img src="baldi.png" alt=" Zdjęcie Baldiego nauczyciela matmy"/>
+ <header id="top">
+    <h1>Maciek Korsan - Strona Domowa</h1>  
+</header>
+    <section class="about">
+    <h2 style="color: darkgreen;">Kim jestem?</h2>
+    <img src="baldi.png" alt="Zdjęcie Baldiego nauczyciela matmy"/>
     <p>
     Hej! Na co dzień uczę wspaniałych ludzi tajnej sztuki frontendu i pracuje jako frontend developer <a href="https://cotenfrontend.pl" target="_blank">WTF</a> kilku 
-    produktach. Poza tym bardzo lubię robić zdjęcia i latać dronem.<br> Witam Cię na mojej stronie domowej, mam
+    produktach. 
+    <i id="name" style="color:yellow;"> Poza tym bardzo lubię</i>. robić zdjęcia i latać dronem.<br> Witam Cię na mojej stronie domowej, mam
     nadzieję, że znajdziesz tu truchęprzydatnych rzeczy.</p>
-    Poczytaj więcej o <a href="#szkolenie">nagrywaniu szkolenia</a>
-   </section>
+   <p>
+    Poczytaj więcej o <a href="#szkolenie"> nagrywaniu szkolenia</a>.
+</p>
+</section>
     <section>
-    <h2>Notatki z WTF: Co ten frontend.<h2>
-     <article>
-    <h3>Jak stworzyć prawidłowego HTML-a?<h3>
+    <h2>Notatki z WTF: Co ten frontend.</h2>
+     <article class="my-article">
+    <h3>Jak stworzyć prawidłowego HTML-a?</h3>
     <p>
     Tworzenie zgodnego ze starndardami HTML-a to sztuka , którą do perfekcji opanowało niewielu. Jeśli chcesz stać się 
-    częścią tej grupy musisz wykazać się otwartą głową i dużą ilością wolnego czasu...</p>
-    </article id="szkolenie">
+    częścią tej grupy musisz wykazać się otwartą głową i dużą ilością wolnego czasu...
+   </p>
+  <article id="szkolenie">
    <h3>Czy nagrywanie szkolenia to prosta sprawa?</h3> 
     Na początku myslałem ,że całe szkolenie nagram w 2 tygodnie ( o ja naiwny!). Samo planowanie zajęło dużo 
     więcej! Na szczęście dzięki wsparciu bliskich i sporej motywacji udało mi się wytworzyć schemat nagrywania,
@@ -44,5 +50,8 @@
 
     </footer>
 
+<script src="main.js">
+
+</script>
 </body>
 </html>
