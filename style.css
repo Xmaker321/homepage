@@ -1,14 +1,23 @@
+
+html{
+  box-sizing: border-box;
+}
+
+*,*:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background: #fefefe
 }
 
 h1 {
   color:rgb(223, 137, 39)
+  padding: 16px;
 }
 
 h2 {
   color:rgb(100, 0, 50)
-  
 }
 
 
@@ -16,10 +25,19 @@ h2 {
   color: red;
 }
 
-#szkolenie{
+#szkolenie {
   background:yellow;
+  padding: 16px;
 }
 
+
+section {
+  padding: 16px;
+}
+
+footer {
+  padding: 16px;
+}
 
 
 a {
@@ -37,6 +55,7 @@ section a {
 .my-article p {
   background: #1460aa;
   color: #ffffff;
+  padding: 16px;
 }
 
 #name {
@@ -46,3 +65,8 @@ section a {
 .about {
   color: #a30041;
 }
+
+header {
+  padding: 16px;
+}
+
