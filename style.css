@@ -8,7 +8,7 @@ html{
 }
 
 body {
-  background: #fefefe
+  background: #fff;
 }
 
 h1 {
@@ -40,9 +40,7 @@ footer {
 }
 
 
-a {
-  color: inherit;
-}
+
 
 section a {
   color:orange
@@ -67,6 +65,27 @@ section a {
 }
 
 header {
-  padding: 16px;
 }
 
+.navigation {
+  padding: 16px;
+  background: blue;
+} 
+
+.navigation__link {
+  color: white;
+}
+
+.section {
+  background: #dcdcdc;
+  margin-bottom: 16px;
+}
+
+.section__header {
+  color: rgb(2, 91, 94)
+}
+
+.section__header--special {
+color: tomato;
+margin-left: 64px;
+}
